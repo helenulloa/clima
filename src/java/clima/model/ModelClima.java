@@ -10,7 +10,7 @@ import javax.ejb.Stateless;
 @Stateless
 public class ModelClima {
 
-    public Clima consultarClima(){
+    public Clima consultarClima(){ 
         Clima c = new Clima();
         c.setHumedad(23.4f);
         c.setTemperatura(19);
