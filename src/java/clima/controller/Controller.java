@@ -4,14 +4,10 @@ package clima.controller;
 import clima.model.ModelClima;
 import clima.model.entities.Clima;
 import javax.ejb.EJB;
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
 
 /**
  * @author Roxiis Ulloa
  */
-@ManagedBean
-@SessionScoped
 public class Controller {
     
     private Clima clima;

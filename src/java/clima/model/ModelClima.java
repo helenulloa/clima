@@ -2,12 +2,10 @@
 package clima.model;
 
 import clima.model.entities.Clima;
-import javax.ejb.Stateless;
 
 /**
  * @author Roxiis Ulloa
  */
-@Stateless
 public class ModelClima {
 
     public Clima consultarClima(){ 
